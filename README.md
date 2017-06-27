@@ -10,9 +10,16 @@
 
 * **Basic Usage**
 ----
+    
+    ***Installation***
+
+    ``` npm i -S eatstreet ```
+
     Setup your params object with required and optional parameters and pass them and a callback to a method.
 
 * **Methods:**
+
+
 
     ```javascript
         var EatStreet = require('eatstreet');
