@@ -14,19 +14,15 @@
     
 ## Installation
 
-  `npm install eatstreet --save`
-   ```javascript
+    `npm install eatstreet --save`
+
+    ```javascript
         var EatStreet = require('eatstreet');
         var ES = new EatStreet("{yourAPIKey}");
     ```
 
 
 * **Methods:**
-
-
-
-    
-
     
   *Search Restaurants:*  
 
