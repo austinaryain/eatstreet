@@ -1,0 +1,29 @@
+{
+  "name": "eatstreet",
+  "version": "0.0.1",
+  "description": "A simple Node wrapper for the Eat Street API.",
+  "main": "./lib/eatstreet.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/austinaryain/eatstreet.git"
+  },
+  "keywords": [
+    "Eat",
+    "Street",
+    "Restaurant",
+    "Food",
+    "Ordering",
+    "API"
+  ],
+  "author": "Austin Aryain <austinaryain@gmail.com> (http://twitter.com/austinaryain)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/austinaryain/eatstreet/issues"
+  },
+  "homepage": "https://github.com/austinaryain/eatstreet#readme",
+  "dependencies": {
+  }
+}
