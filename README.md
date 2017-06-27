@@ -11,9 +11,9 @@
 * **Basic Usage**
 ----
     
-    ***Installation***
+## Installation
 
-    ``` npm i -S eatstreet ```
+  `npm install eatstreet --save`
 
     Setup your params object with required and optional parameters and pass them and a callback to a method.
 
