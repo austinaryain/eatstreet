@@ -40,8 +40,9 @@
         * @param  {Object}  params         options object (described above).
         * @param  {cb}      callback       callback in the form: function (err, response)
     */
+
     var params = {
-    address: 'Madison, WI', // Street Address to Search.
+        address: 'Madison, WI', // Street Address to Search.
     }
     ES.SearchRestaurants(params, function(err, res){
         if(err){
@@ -69,6 +70,7 @@
         * @param  {Object}  params         options object (described above).
         * @param  {cb}      callback       callback in the form: function (err, response)
     */
+
     var params = {
         apiKey: '4e1ac3797e396198459c89af9c680205d30b6aeaa238f8d1',
         customizations: true
@@ -95,6 +97,7 @@
         * @param  {Object}  params         options object (described above).
         * @param  {cb}      callback       callback in the form: function (err, response)
     */
+
     var params = {
         apiKey: '4e1ac3797e396198459c89af9c680205d30b6aeaa238f8d1',
         customizations: true
@@ -123,6 +126,7 @@
         * @param  {Object}  params         options object (described above).
         * @param  {cb}      callback       callback in the form: function (err, response)
     */
+    
     /* Get a Menu Item Customizations */
     var params = {
         apiKey: '6771808'
