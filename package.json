@@ -1,6 +1,6 @@
 {
   "name": "eatstreet",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple Node wrapper for the Eat Street API.",
   "main": "./lib/eatstreet.js",
   "scripts": {
