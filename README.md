@@ -9,18 +9,15 @@
 
 
 * **Basic Usage**
-----
     Setup your params object with required and optional parameters and pass them and a callback to a method.
     
 ## Installation
+    ``` npm install eatstreet --save ```
 
-    `npm install eatstreet --save`
-    ----
-
-        ```javascript
-            var EatStreet = require('eatstreet');
-            var ES = new EatStreet("{yourAPIKey}");
-        ```
+    ```javascript
+        var EatStreet = require('eatstreet');
+        var ES = new EatStreet("{yourAPIKey}");
+    ```
 
 
 * **Methods:**
