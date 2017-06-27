@@ -77,6 +77,9 @@
     }
     /* Get Restaurant Details */
     ES.RestaurantDetails(params, function(err, res){
+        if(err){
+            console.log(err);
+        }
         console.log(res);
     });
     ```
@@ -103,6 +106,9 @@
         customizations: true
     }
     ES.RestaurantMenu(params, function(err, res){
+        if(err){
+            console.log(err);
+        }
         res.forEach(function(menuSection){
             menuSection['items'].forEach(function(menuItem){
                 console.log(menuItem);
@@ -126,12 +132,15 @@
         * @param  {Object}  params         options object (described above).
         * @param  {cb}      callback       callback in the form: function (err, response)
     */
-    
+
     /* Get a Menu Item Customizations */
     var params = {
         apiKey: '6771808'
     }
     ES.ItemCustomizations(params, function(err, res){
+        if(err){
+            console.log(err);
+        }
         console.log(res);
     });
     ```
